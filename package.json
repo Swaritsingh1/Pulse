@@ -1,0 +1,31 @@
+{
+  "name": "pulse",
+  "version": "1.0.0",
+  "description": "AI-powered real-time news intelligence platform delivering personalized summaries via Telegram",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsdom": "^25.0.1",
+    "mongoose": "^8.7.0",
+    "node-cron": "^3.0.3",
+    "p-limit": "^3.1.0",
+    "pino": "^9.4.0",
+    "playwright": "^1.48.0",
+    "rss-parser": "^3.13.0",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "pino-pretty": "^11.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
